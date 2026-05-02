@@ -1,0 +1,171 @@
+it is not lifo not fifo
+its strength is to able to operate from any side 
+
+uses Has-a relationaship
+linkedlist is a collection of nodes arranged in a sequence manner.
+
+easiest example -
+      is a train has a single driver , structure wise evrry boogies is same.
+
+for traversal we have linear linked list 'mostly dynamic  (99.9%)
+its strength is its dynamic behaviour 
+
+example - snake game - collection of blocks increasing at runtime. 
+
+---------
+Node 
+
+node - a collection of data and reference to another next node itself;
+
+next - a self - referring structure .
+
+it's like a pointer kind which can only refer to its type - 
+
+similarly 
+a node can refere to its same data type only.
+
+so how to make a Node- 
+      we will create a class 
+
+data unit can be mulitple also 
+
+internal data will have multiple values creating data in real life .
+
+class Node{
+      int data ;
+      Node next;
+      Node(int data ){
+            this.data = data ;
+            this.next  = null //not refering to anyone ;
+      }
+
+} // this is a node 
+
+-------------------------
+LinkedList 
+
+A linked list -  has a first node root , head or start. if root lost the entire linkedlist will be deleted or lost .
+
+we store only root addres of list and why root is important -  because in list or array the reference of root via multiple node is maintained , hence root is important.
+
+Dynamic data can be present on different non sequential address and they are connected by links 
+
+
+
+
+
+## Explain LinkedList in paper pen in interview.(paper pen helps to communicate and explain in better way )
+-----------------------------------------------------------------
+
+
+## an Interview question -  since AGC in java how we have only base root addres of a list  ? 
+---------------------------------------------------------------
+
+
+
+
+when we say - Node n = new Node(10);
+
+Node t = root;  //1200 t = 1200 //another ref (alias)
+
+t = t.next // next address t<-2400 moves ahead 
+
+moving from one to another is called traversal , 
+
+Root is at leftmost in a linked list
+
+last or rightmost is the one with next as null. 
+
+. . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . .
+
+example  -    | 1 , &| 2 , &| 3 , &|4 ,  null| 
+
+-> here & indicate address to next element where last element has no address to next 
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+
+root is never created but assigned (1st from either side becomes root)
+
+
+general  facts-------------------
+
+      xerox is the first company which created photocopy machine.
+      because they were the pioneer we named term on them.
+
+---------------------
+
+
+
+
+So as we said Node is a class.
+ 
+steps to create a node..
+
+      All operations would be on basis of roots
+
+      1.create a node
+      2.root is assigned never created 
+
+-----------------------
+custom methods - 
+
+insert_left
+
+            if(root == null)
+            {
+            n.next = root;
+            root = n ; //root reassigns itself 
+            }
+
+root is supposed to left most (first element)
+
+whenever you insert on left side of a root, root reassigns itself to left side element 
+
+
+insert_Righmost 
+
+property of rightmost element is that it is a " null ", it has no next reference
+
+unidirectional arrow     | 1 , & | -> | 2 , & | -> | 3 , & | -> | 4 , null |
+
+
+Node n = new Node(data);//creates a node
+
+            if(root==null)
+                  root=n;
+            else
+            {
+            Node t = root ;
+            Whie(t.next != null) 
+                  t=t.next;
+            t.next = n ; 
+            }
+
+##  interview question - why you would not delete the element on linkedlist 
+-------------------------------------------------------
+
+
+
+
+because in java there is AGC automatic garbage collection.
+
+can u delete manually ? 
+- no ,its GC's work .
+
+
+tailing method - 
+anchoring the tag  - 
+
+delete right  - 
+
+Node t, t2;
+t = t2 =root;
+
+t2.next = null;
+probelm is if root is a single node. 
+if(root.next == null) //single node.
+      root = null ; //manual deletion
+
+
+8 methods of linkedlist - each have node , t , next .
