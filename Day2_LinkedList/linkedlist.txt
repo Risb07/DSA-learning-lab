@@ -169,3 +169,243 @@ if(root.next == null) //single node.
 
 
 8 methods of linkedlist - each have node , t , next .
+
+
+---------------------------------------------------------
+Finding element in LinkedList 
+
+node is a class has data and next , next it is know as self refrring structure. a self referring structure can refer to own type, a node it is refreeing to should be of same type.
+we talked about insert left insert right delete left delete right and print .
+
+search- 
+insert_after 
+insert_before 
+delete_before
+delete_after
+delete_specific
+
+search- 
+it is a method, without searching you will not be able to do insert after or  delete_specific. 
+searching is a variation of printing . since we have a linear structure you only have option of sequential search (serach data after other ) . 
+searching mechanism - it is similar to printing concept 
+for searching we need a key. we check every element if data of node is key. 
+
+insert after -
+
+
+search- 
+insert_after 
+insert_before 
+delete_specific
+
+case 1 if element to be deleted is on root only - 
+case 2 if element to be deleted is at last then make its previous element's next as null 
+case 3 if element to be deleted is in between then rewrite the next of previous element with the next of current element.
+
+
+
+-------------------
+Dynamic stack using queue
+
+root becomes tos 
+
+push() - insert_left()
+pop() - delete_left() -> tos = null
+peek() - tos.data
+print_stack() 
+stack_empty()
+
+since it is dynamic no empty check , no create stack for it 
+
+
+## if u are unclear about any question never open ur mouth instead politely ask him that "if your trying to say this" he says yes and then answer 
+
+
+
+----------------------------------------
+
+Queue- dynamic version 
+
+enqueue is variation of insert right  -  
+if it is a single node -  rear = front = n ;
+
+deque is variation of 
+if there is a single node -  hence front = rear = 0 , so we do  - front = rear = null ;
+
+if there is more than one elements(nodes) hence move front and when exactly front = rear  
+
+
+check what changes were made in first program - to learn things faster- first understand basic things first and see what changes made in that basic code , it will make u rememeber and learn faster 
+
+
+--------------------------------------
+Circular Linked List 
+
+in this list  the last must refer to the first 
+last.next  =   root
+
+in case of a single node root and last is itself  
+
+root = last = n;
+last.next = root; //next has address of root which is itself 
+
+
+in case of more than one node  (insert right )
+
+last = next.n
+last = n;
+last.next=root;
+
+
+( insert left )
+
+n.next = root;
+root =n;
+last.next= root;
+
+
+delete left in circular link list
+
+node t = root;
+if(root == last) //single node      
+      root =last = null;
+else
+      root = root.next; make root which is on next of current root 
+      last.next = root ; last next must refere to new root
+
+
+do{
+      t =t.next; 
+}while(t!=root);
+-------------------------------------------------
+
+Doubly linked List 
+
+Traditional and linear linked list can only traverse in one direction, start to end.
+
+Making it slow, specially to travel's last visit 
+solution to this is doubly linked List
+
+doubly linkedlist has one root only .
+
+
+class Node / Dnode (double node)
+
+class Dnode {
+
+}
+
+ . . . . . . . . . . . . . . 
+book for data structure 
+tunning book - 
+ . . . .. . . . . . . . . . .
+
+ you are referring to a node which does not exist.
+
+ insert_left{
+
+      DNode n = new DNode(data);
+
+      if(root = null){
+            root = n;
+      }else{
+
+            n.right = root;  root.left = n; // linked the left new node and older root node with each other
+
+
+      }
+ }
+
+ ------------------
+
+ delete left 
+
+
+t = root
+root = root.right
+root.left = null;
+
+how to know a dnode is single 
+if root.left == null and root.right == null;
+
+      then root = null;
+else
+      root = root.right 
+      
+
+
+------------------------
+Since we have two ends no need for t2 to traverse 
+
+----------------------
+
+delete right  -- 
+
+##     interview's faviourite topic to write delete right in doublylinkedlist with paper pen
+
+else{
+      Dnode t, t2;
+      t =root;
+       if(root.right == null )
+            root=null;
+      else
+
+      {
+
+            while(t.right!=null)
+                  t=t.right;
+            t2 = t.left;
+            t2.right = null;
+      }
+}
+
+###      after ai - interviews want you to explain code.
+
+reasons for non getting selection ----------------
+
+
+## interview sees the standard of your code ( tabs - readability , readablility of a variable, well commented code -it  tells interviewer steps are clear to you , )
+
+a senior coder puts logical comments before code.
+
+a lot of companies count number of times you have run your code.
+
+no calls - no profile matched you keep your data in buffer till next profile meets you. 
+
+What is interview ?  - selling yourself 
+
+every coding question is based on some core topic 
+example. shortage path algorithm.
+
+lot of interview have started story telling kind of question.
+
+how can a developer take out informatioon and required data for a problem and solve it from an set information.
+that is why companies now a days asks questions based on some data and developers to take data from it and resolve the probelm 
+
+
+
+
+microsoft ineterview preperation book -
+
+
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
