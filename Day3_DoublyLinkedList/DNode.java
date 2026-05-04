@@ -1,4 +1,4 @@
-class DNode{
+public class DNode{
       int data;
       DNode left, right;
       
