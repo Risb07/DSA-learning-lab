@@ -395,10 +395,149 @@ microsoft ineterview preperation book -
 
 
 
+built in linked list methods 
+
+common mistake - forgetting null checks 
 
 
 
 
+insert_left - addfirst
+insert_right - addlast
+deleteLeft- removeFirst -gives you data does not print it 
+deleteRight- removeRight -gives you data does not print it 
+
+
+
+-------------------------------
+why oops is called bottom to top ?
+
+ . . . . . . . . . . . . . . . . . . . . . . . .
+###  search cycle slow pointer fast pointer 
+ . . . . . . . . . .. . . . . . . . ... . . . . . 
+
+for logic - diagrams pracice would correct 
+collection for data structure is important 
+
+
+linkedList also has pop and push it has overriden them 
+
+higher number of question is from linked list in interviews 
+
+Is coding tough for you if yes fix it first then fix logic and practice 
+
+-----------------------------------------------
+Linked List Implements multiple interface like queue , list 
+
+Singly Link List 
+
+
+
+Circular Linked List is very Commonly used in EDM electronic digital music.
+circular linked list is used till the time data is clean to a cirtain level 
+
+
+
+--------------------
+TREE 
+tree is a dynamic heirarchical structure which starts with the root grows with branches and ends with leaf nodes
+
+applications of tree
+1.searching and sorting large scale data 
+2.in AI called state space tree, which acts as a tree for ,making decision AI.
+3.It is used for autocomplete and autocorrect - 
+Instagram has autocomplete form which use
+4.Used in Gis(geographican interface system) systems 
+       google maps , zoom in - india - to node india - zoom in - to MP - zoom in - to chhindwara 
+5.Also used for heirarchical management - every system is a heirarchical - herarchy is- one system branches to many sub systems 
+
+
+--------------
+Binary tree
+A node can have atmost two childs, one is left and right.
+Root is called to be an "ancestor" of all the nodes
+
+Subtree: is a part of tree which does not start from the root 
+it will never be a root 
+
+leaf node : node beyond which nothing exists 
+
+Depth and height - import asked in almost evry paper
+
+length of longest branch 
+depth is top to bottom
+Height is bottom to top
+
+Heigher depth is heigher access time.
+lower depth the lower the access.
+hiegher height is lower is the time to access.
+lower height is greater  is the time to access.
+
+A -> B , A -> C = A and C are cousins.
+
+Types of binary search tree :
+
+
+Complete binary tree 
+      all leaf node are at exact one depth. 
+nearly complete binary tree 
+      all the leaf node except one are either one depth ahead or depth prior -1 , +1
+strict binary tree 
+      every node will either have two child nodes or no ( very commonly used for backup and disk mirror)
+      used in banking systems, raid systems
+
+The binary search tree.
+      
+      It is a special version of binary tree used for searching and sorting 
+      while construction of the tree follows two basic 
+      
+
+
+### Common question in ccee 
+
+what kind of binary node tree based on diagram .
+
+
+Tree traversal
+
+Traversal - order in which one would visit every node 
+            order depends on the way you want to visit
+
+
+ pre-order(prefix)                                 p(+)
+ +ab/(PLR)                                         /  \
+ in-order(inorder)                              L(a)    R(b)
+ a+b/(LRP)
+ post-order(postfix)
+ab+/(LRP)
+
+
+start from the Root
+If you cut L, go to the left
+if you cut R, go to the right
+if you cut P, simply print
+
+All Three are done, go to parent . if done go to grandparent.
+
+har light left pr har heavy right per 
+
+
+In-order 
+
+why inorder called inorder -  if inorder is run in binary search tree -
+if it is a binary search tree inorder traversal gives inorder data .
+
+
+deletion of node from tree 
+
+cuty link between parent and child node gets deleted
+deletion 
+
+connect grandparent and child and delete the parent
+
+delete parent with entire left
+
+the inorder 
 
 
 
