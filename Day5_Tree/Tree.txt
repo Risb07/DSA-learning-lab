@@ -1,0 +1,122 @@
+Doubly link implementationof tree 
+
+Newer java does nulify itself 
+In older java we needed left = right = null;
+
+opposit of > is <= and < is >=
+
+
+inorder should be in order 
+-------------------------------------------------
+AVL - developed by three people 
+
+
+AVL 
+
+
+Balance Factor 
+height of left - height of right 
+
+Allowed balance factor is between +1,0,-1
+
+Balance is important  - because if a tree is balance it take lesser time and if unbalanced takes more time .
+
+If a tree is balanced it is a shallow tree  - less depth 
+AVL is variation of BST 
+. . . . . . . .
+. . . . . 
+. . . . . 
+
+ 
+single rotation 
+
+Double rotation
+      will be rotating and comming in between
+
+
+load come from any side (new inserts are load comming in tree so you rotate it to balance tree)
+depending on
+
+
+--------------------------
+Huffman tree
+
+works in concept of ndoes and tree 
+
+JPG - BMP
+Winzip winrar.
+what is huffman coding tree
+how it achives compression 
+
+
+-----------------
+
+
+Expression tree
+it is a specialized version
+used to convert prefix to postfix directly 
+
+ALU unit uses express tree to solve maths 
+
+
+---------------------
+
+B Tree.
+it is an example of a multi way search tree 
+
+it's base is BST but enhanced and works on a larger picture 
+
+M is order, it is odd because we split it 
+
+what is an advantage of btree over normal tree
+
+
+
+
+B+ tree is advanced form of b tree 
+
+2| is index 
+all nodes are interlinked 
+B+ is used in indexing of vedios.
+
+used in bluray for indexing for restricting clips , uses indexing to skip .
+
+
+Graph
+
+tree is a subset of graph
+so every tree is actually a graph 
+every graph without a cycle is a tree 
+graph gives direct access while tree gives directed access 
+
+a graph is represented with G =(V,E)
+V(G) -
+E(G) - 
+Symmetric  asymmetric
+undirected directed 
+weighted unweighted 
+
+one of the most uses is weighted and directed for interviews 
+
+Weight - it is a unit.
+
+examle of asymmetric relationship :
+download and upload speed differance(unbalance)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
