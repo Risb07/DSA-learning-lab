@@ -1,0 +1,219 @@
+Pillars of algorithm 
+
+1. input - data dataset, or problem set 
+2. output - result or response
+3. finiteness - fix  numbers of steps or fix amount of time 
+   if it does not follow the finiteness then it is not an algorithm
+4. definiteness -  eveyr step in algorithm should be clearly defined so that one can code it 
+5. effectiveness - every step should solve the problem or should take you closer to the solution, else should not exist.
+
+Analysis - 
+why analysis ? - so one can predict time and space complexity and then select the one 
+100 options - 10 test - 1select -this is the process of analysis.
+when to analysis? 
+      Priori - prediction by human , its a plane prediction pen and paper
+      Posteriori - checks whether the prediction is right, wrong, or how much difference it makes, example- testing.
+
+      priori analysis is done by human kind of like a prediciton done by human on pen and paper but posteriori is check whether the predicition is right and do exactly what we expected.
+
+analysis on what ? 
+      Best case - best case has minimum or no work
+      Worst case - for a problem size of n, in multiple of n there will be work, let's say 2n, n square, or n factorial.
+      Average case - nearly half of the problem size would be the work.
+
+To predict how good an algorithm is, we should know the maximum run time. That is the worst case. hence the worst case is always used.
+
+interview asks - for the most accurate answer we combine the Average of (best and worst)
+
+
+in above pillars input and output are most important 
+
+
+
+
+
+
+
+
+
+
+
+time cmplexity = time to execute 
+
+todays in industry time complexity is more important than space complexity 
+
+how do we calculate time complexity? 
+
+      comments has 0 
+      Operations has 1
+      loop has n+k
+
+      i=0 runs for single 1 time.
+      for n =3 loop will run for five times  - 0 ,1 ,2 ,3 ,4and cancel so 5 times 
+      i++ = runs for n+1 times (3+1) 0,1,2,3,4 
+
+      to find the time complexity  - add all the times  - 
+
+      time complexity ( time in steps )  -   3n + 5 - it is time or timecomplexity we have given in steps 
+
+
+      how would you give speed when processors are different ?
+
+
+Interview question in mcq -  - -
+
+
+complexities  -   linear - n, (if complexity is n )
+                  Quadratic - n^2,
+                  Cubic - n^, 
+                  
+                   1000000 - 0.5 125000000 - 0.5*125
+
+                  log based - log n, 
+
+                        log100 - 2
+                        log500 -2.69
+                        (2.69*0.5)2 = 0.67 
+
+Asymptotic notation - it is a unit to record complexity 
+
+asymptotic notation is used to describe the running time of an algorithm - how much time an algorithm takes with a given input, n.
+
+Way to recording complexity using mathematical formula. it is a unit to record complexity 
+
+Big-O - targets only worst case complexity.. extremly simple. fast but less efficent compared to theta.
+
+theta - targets average of best and worst case , hence slow to record but more efficient compared to big O Omega. 
+
+Omega - targets only the best case. most of the algorithm behaves similary  in best case hence it is not very much used.
+
+
+use the question given in the pdf - very much asked 
+
+
+f(n) - input rate /amount of input 
+
+g(n) - growth rate / number of operations done for completing the task .
+
+Big-Oh - 
+
+      i/p input            n^3(steps)
+      1                       1
+      2                       8
+      3                       27
+
+      Here if even 1 input increses the number of steps increases very much  
+
+f(n) < c.g(n)      
+Theta - c1.g(n)   <= f(n) <=    c2.g(n)
+        best case              worst case 
+
+
+interview question - can u explain best case with example ?
+ 
+ if u have 1,2,3........100(searching(1))  - 
+ if u have 1,2,3........1000(seracing(1)) - 
+
+
+
+
+ Big-O - 
+
+ rules - 
+  constant has no value - O(100n ) -> O(n)
+  In addition use 
+
+
+  Because of Big O is +ve thing is it is simple
+                      -ve thing is it LESSER efficient  
+
+
+
+
+
+Algorithm for searching and sorting 
+
+first we sort and then we search 
+
+all searching algorithm returns an index if data is found unless returns -1
+
+define process of sorting 
+      process of arranging data in order.
+      by default it is in ascending order if asked explicitilty then you apply descending unless it keep itself in ascending by default
+
+
+interviews print in minimum lines 
+so we have an Array module which is built in we can use it like this  : 
+
+System.out.println("Initially" + Arrays.toString(a)); //print using minimum line 
+
+
+
+Bubble sort -
+
+it is the most basic sorting technique when immediate neighbors are compared and heaviest element bubbled up on top.
+
+bubbled means swap 
+how many passes it would required - n-1, last one left will be sorted itself.
+
+i gives passes , j does sorting
+
+
+
+
+
+
+Selection sort - 
+in selection in  every ith pass, the smallest is selected and placed at first location .
+
+reference and to be a part of data.
+if the reference is not part of your data , you take reference from your data only 
+
+
+selection is generally asked on paper pen 
+
+one small point - why so many sorting techniques -
+different people use different techniques to solve different problems.
+
+bubble comparison sort and selection sort -
+
+bubble sort compars neighbor elements while selection searches minimum element;
+bubble sort has less number of passes than selection sort 
+
+
+insertion_sort
+
+
+Quick_sort
+
+In this we take a pivot as a reference. Element less than the pivot should be to the left (before). Element greater than the pivot should be to the right(after). Pivot can be the first, the last, or a mid element.
+
+pivot - refernce 
+it is such a element it can be start to end , end to start or in mid .
+
+and in order to balance pivot we sort the array .
+
+less elements <- pivot greater elements 
+
+
+merge sort is mostly asked in every interview.
+
+it works on a complecated technique of devide and conquerr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deploma- be- me- msc- phd 
