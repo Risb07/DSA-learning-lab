@@ -107,8 +107,59 @@ download and upload speed differance(unbalance)
 
 
 
+----------------------------------------
+Graph Searcging 
+traversal 
+its Blind search , blind searching means  multiple solutions possible.
+
+which of the following is wrong bsf or dsf ?
+
+DSF - it is a vertical search which exlore only one branch , if there is dead end we will backtrack and explore again any one branch going forward.
+BSF- it is a horizontal search , explore first direct neighbers if no solution found will search neighbers of neighbers.
+
+Bsf algorithm used by ola uber, swiggy. - first direct neighbers is searched if not found searching increases to neighbers of neighbers
+
+there  is no root in bsf or dsf 
 
 
+Algorithm 
+
+start by putting source on to queue and Mark it visited.
+
+search for all ( all V\S anyone (BSF talks about any one) ) unvisited neighbers of element at quqeue front, mark them visited and put them on queue 
+
+mark for visited - in real code we do 
+
+
+
+
+Favourite of interviewers  - ----- 
+
+if graph asked DFS will be asked 90% and with on paper 
+
+DFS 
+1.
+accept source, mark it visited and push it on stack 
+visited[source] = 1; marked visited just after it print 
+2.
+if neighbours then - (g[source][i] == 1). and it should be unvisited  && visite[i]
+3.
+
+In interview attitude / confidance matters smile with confidance  , 
+
+If you could explain dsf - 
+1.u understand loops;
+2. u understand recursion 
+3. you understand complex programming 
+
+
+
+in 90% of graph problems 2d array is used 
+
+
+
+
+reset visited when going to bfs
 
 
 

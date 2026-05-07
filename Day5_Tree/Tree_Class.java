@@ -5,21 +5,21 @@ public class Tree_Class {
     private Node root;
 
     // INSERT
-    Node insert(Node r, Node n) {
-        if (r == null) {
+    Node insert(Node r, Node n) { // r is the root n is the new node
+        if (r == null) { //if root is null
             return n;
         }
 
-        if (n.data < r.data) {
-            r.left = insert(r.left, n);
+        if (n.data < r.data) { // if node data is smaller than root data 
+            r.left = insert(r.left, n);  // will be inserting on left of root but agar left me koi node hai, agar vo smaller hai then go to left recursively and insert.
         } else {
-            r.right = insert(r.right, n);
+            r.right = insert(r.right, n); //else if node is greater then and equal to then check recursively all right nodes and insert it.
         }
 
         return r;
     }
 
-    // INORDER (LNR)
+    // INORDER (LNR)  L
     void inorder(Node r) {
         if (r != null) {
             inorder(r.left);
@@ -65,8 +65,21 @@ public class Tree_Class {
         
     }
 
-    int tree_height(Node r){
-        
+    int height(Node r) {
+        if (r == null)
+            return 0;
+        int left_length=height(r.left);
+        int right_length=height(r.right);
+        return Math.max(left_length,right_length)+1; // 1+ 
+    }
+
+    list diameter(Node r){
+        if ( r == null)
+            leaf = r
+            list.add(leaf.data);
+        int left_length=diameter(r.left);
+        int right_length=diameter(r.right);
+         list.add(r.right)
     }
 
     // MAIN MENU
