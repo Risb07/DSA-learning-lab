@@ -1,0 +1,88 @@
+How you should use chatgpt ?
+      You should never directly use chatgpt or AI 
+
+      rather than going blind and asking for solution from ai use ai 
+                        
+                        -to explain what question is asking .
+                        -help in logic making for the solution (adding on to your thinking)
+                        -and if stuck can help for guide 
+                        instead of an answer. use it to guide you to solve it.
+            
+
+
+Preparation for interview -
+
+      1. core ready - strong java lnguage.
+      2. Data Structure - 
+                              1 structure at a time 
+                                                n problems
+      3. algorithm and pattern -    
+                              greedy + dynamic 
+      100 Hrs
+
+
+
+      for cracking an interview first round you need to at least give 100 hr to this study at this point under 3 months 
+
+      round 1 online coding test (63% companies take coding round 1 ) - needs strong handson of problem solving and logics 
+
+      most of the companies has a custom IDE that does not give reflection, no multiple tabs , no AI.
+
+      So you need to learn coding syntax and functions.
+
+
+      
+      what would you answer about the gap.
+
+      what your profile should consist 
+      
+      certificates
+      hackathon certificates  
+      max leetcodes , badges , 
+      Number of Capstone Projects with AI Touch. 
+      Automation based projects ( auto mated scrips ) 
+      workflow automation ( example : someone used a machine learning to knwo whats wrong with the car ,  )
+      /current industry solutions 
+      projects on - Account
+                  - Auto Management 
+                  - Automation 
+                  - API call 
+                  - fast API
+                  - API Integration 
+
+
+      do not wait apply through linkedin , direct messages 
+
+      if you are from no it then do more projects , unique projects , more codes , more knowledge than IT students 
+
+      maintain GIT - GIT is now your new passport , companies go through git first thing and gives high priority 
+      'github should include thing you really have known and worked on- questions are asked from git'
+
+      Justify Gap it is very import 
+      why gap?
+      what you did after gap?
+      can you prove the gap , documentation ,
+      dont say something you can not prove.
+
+      best option - I was upgrading myself .
+
+      Important answer why in CDAC ?
+      - 
+
+      an interview is a process of selling yourself within 20 mins.
+
+      when you answer be polite. your bodylanguage tells what you think. attitude is the first and most important thing.
+
+      GD 
+      apptitude
+      coding
+      Profile 
+      Github, 
+      Projests with AI , Automation, 
+      Attitude.
+      
+
+
+
+
+
