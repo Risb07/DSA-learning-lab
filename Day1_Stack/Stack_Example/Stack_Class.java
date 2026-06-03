@@ -17,7 +17,7 @@ public class Stack_Class
     {
         tos++;
         stack[tos]=e;
-        //stack[++tos]=e;
+        //stack[++tos]=e; 
     }
 
     boolean is_full()

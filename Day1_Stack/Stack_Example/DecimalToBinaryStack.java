@@ -3,7 +3,7 @@ import java.util.Stack;
 
 class DecimalToBinaryStack{
       public static void main(String args[]){
-         Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in); 
          int num; 
          //1
          System.out.println("Enter num ");
