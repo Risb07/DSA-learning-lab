@@ -99,7 +99,6 @@ public class Linear_Linked_List_Class
             System.out.print("\n"+key+" not found in list");
         }
     }
-
     void insert_after(int ref,int e)//key is element to search
     {
         if(root==null)

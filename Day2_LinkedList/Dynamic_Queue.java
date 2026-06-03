@@ -7,7 +7,8 @@ import java.util.Scanner;
 public class Dynamic_Queue
 {
     Node front,rear;
-    void enqueue(int data) // 
+    void 
+    enqueue(int data) // 
     {
         Node n=new Node(data);//create a node
         if(rear==null)//only 1st time
