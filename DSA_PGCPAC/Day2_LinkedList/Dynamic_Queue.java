@@ -1,4 +1,4 @@
-package Day2_LinkedList;
+package DSA_PGCPAC.Day2_LinkedList;
 
 import Queue_Examples.Queue_Class;
 

@@ -28,7 +28,7 @@ Thus, the result should be [1,0]. */
 
 
 
-package Daily_DSA_practice;
+
 
 public class PlusOne {
 

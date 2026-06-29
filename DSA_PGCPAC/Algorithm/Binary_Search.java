@@ -1,4 +1,4 @@
-package Algorithm;
+package DSA_PGCPAC.Algorithm;
 
 public class Binary_Search{
       static int binary_search(int a[],int start,int end,int key)

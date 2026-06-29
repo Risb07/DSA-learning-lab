@@ -1,4 +1,5 @@
 class Pow {
+    //O(n)
     public double myPow(double x, int n) {
         double pow= 1.00 ;
         if( n == 0){
@@ -17,7 +18,7 @@ class Pow {
         return pow;
     }
 
-//optimized 
+//optimized  O (nlogn)
     class Solution {
     public double myPow(double x, int n) {
        long num = n;

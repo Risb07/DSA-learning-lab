@@ -1,4 +1,4 @@
-package Sorting_Algorithms;
+package DSA_PGCPAC.Algorithm.Sorting_Algorithms;
 
 import java.util.Arrays;
 public class Sorts

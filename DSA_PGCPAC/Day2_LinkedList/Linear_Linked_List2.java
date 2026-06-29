@@ -1,4 +1,4 @@
-package Linked_List_Examples;
+package DSA_PGCPAC.Day2_LinkedList;
 import java.util.Scanner;
 public class Linear_Linked_List_Class
 {

@@ -1,3 +1,4 @@
+package DSA_PGCPAC.Day2_LinkedList;
 import java.util.Scanner;
 class Node{
       

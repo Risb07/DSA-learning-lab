@@ -69,7 +69,22 @@ public class Graph_Class {
             }
         }
     }
-
+    public boolean hasCycle(int  source, int parent){
+        visited[source] = 1;
+        for(int i = 0 ; i < v ; i++){
+            if(g[source][i] == 1){
+                if(visited[i] == 0){
+                    if (hasCycle(source, i)){
+                        return true;
+                    }
+                }
+            }else if(i!=parent){
+                return true;
+            }
+        }
+        return false;
+    }
+    
     public static void main(String args[]) {
         Graph_Class obj = new Graph_Class();
         obj.createGraph(4);

@@ -1,4 +1,4 @@
-package Linked_List_Examples;
+package DSA_PGCPAC.Day2_LinkedList;
 
 public class Circular_Linked_List 
 {
