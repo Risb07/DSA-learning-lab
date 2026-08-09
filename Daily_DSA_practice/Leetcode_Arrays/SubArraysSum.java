@@ -17,7 +17,6 @@ public class SubArraysSum {
                               sum = sum + arr[j];
                         }
                         max = Math.max(sum, max);
-
                   }
 
                   m++;
@@ -26,10 +25,21 @@ public class SubArraysSum {
 
       }
 
+      public static void subs(int[] arr) {
+            int rows = 0 ;
+            int cols = 0 ;
+            int n = 0;
+
+            for(int i  = 0 ; i <  arr.length * ( arr.length +1 ) / 2 ; i++){
+                  
+            }
+      }
+
       public static void main(String[] args) {
             SubArraysSum s = new SubArraysSum();
             int max = s.GenerateSubArrays(new int[] { -1, -1, 0, -3 });
 
-            System.out.println(max);
+            // System.out.println(max)
+            subs(new int[] {1,2,3});
       }
 }
