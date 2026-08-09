@@ -1,3 +1,4 @@
+package DSA_PGCPAC.Day1_Stack.Stack_Example;
 import java.util.Scanner;
 import java.util.Stack;
 
