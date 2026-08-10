@@ -57,17 +57,7 @@ public class SearchList{
             
 
       }
-      int delete_left(int num){
-            Node node = root;
-            if(node == null)
-                  System.out.print("\n empty list.");
-            else 
-            {
-                  root = node.next;
-                  return root.data;
-            }
-
-      }
+      
       void delete_right(int num){}
       void delete_middle(int num){}
       void print_list(){
@@ -125,7 +115,7 @@ public class SearchList{
                         case 4:
                               System.out.println("\n Enter element : ");
                               num = sc.nextInt();
-                              obj.delete_left(num);
+                              // obj.delete_left(num);
                               break;
                         case 5:
                               System.out.println("\n Enter element : ");
