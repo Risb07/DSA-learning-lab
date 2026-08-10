@@ -68,5 +68,4 @@ public class Linked_List_Collection
 
         } while (choice != 0);
     }
-    }
-
+}
