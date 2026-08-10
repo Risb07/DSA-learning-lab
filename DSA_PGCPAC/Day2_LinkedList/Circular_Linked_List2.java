@@ -1,6 +1,6 @@
 package DSA_PGCPAC.Day2_LinkedList;
 
-public class Circular_Linked_List
+public class Circular_Linked_List2
 {
     Node root,last;
 
