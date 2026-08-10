@@ -2,10 +2,8 @@ package GeeksForGeeks;
 
 public class SumPalindrome {
 
-
       public static int reverse(int num) {
 
-            
             int rnum = 0;
             while (num > 0) {
                   rnum = rnum * 10 + num % 10;
@@ -16,18 +14,21 @@ public class SumPalindrome {
       }
 
       public static int SumPal(int num) {
-
-            while (true) {
+            if (num == reverse(num)) {
+                  return num;
+            }
+            int count = 5;
+            while (count > 0) {
                   int rnum = reverse(num);
                   int sum = num + rnum;
                   int rsum = reverse(sum);
-                  if (sum == rsum) {
+                  if (rsum == sum)
                         return sum;
-                  } else {
+                  else
                         num = sum;
-                  }
+                  count--;
             }
-            
+            return -1;
       }
 
       public static void main(String[] args) {
