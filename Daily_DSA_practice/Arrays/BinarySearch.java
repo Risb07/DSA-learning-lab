@@ -1,3 +1,5 @@
+package Daily_DSA_practice.Arrays;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -9,6 +11,7 @@ import java.util.Scanner;
  * 
  * 
  */
+
 public class BinarySearch {
 
       public static void Binary_Search(int[] arr, int num) {
