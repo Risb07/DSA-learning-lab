@@ -4,6 +4,8 @@ import java.util.Arrays;
  * Q3. Accept 5 number in an array. Display all even number at the beginning and
  * all Odd at the end. Use only one loop 5 6 4 1 2 6 4 2 1 5
  */
+package Daily_DSA_practice.Arrays;
+
 public class BinarySearchOddEven {
 
       public static void Bin_Single_Swap(int[] arr) {
