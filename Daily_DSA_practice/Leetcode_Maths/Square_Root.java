@@ -1,23 +1,26 @@
 /**
  * Square_Root
  */
+package Daily_DSA_practice.Leetcode_Maths;
+
 public class Square_Root {
 
-      public int mySqrt(int x) {
+    public int mySqrt(int x) {
         int n = 2;
         int down = 0;
-       while (n*n<=x){
-        if(n*n == x){
-            return n;
-        }else{
-            down  = n;
+        while (n * n <= x) {
+            if (n * n == x) {
+                return n;
+            } else {
+                down = n;
+            }
+            n++;
         }
-        n++;
-       }
-       return down;
+        return down;
     }
+
     public static void main(String[] args) {
-      Square_Root s = new Square_Root();
-      System.out.println(s.mySqrt(4));
+        Square_Root s = new Square_Root();
+        System.out.println(s.mySqrt(4));
     }
 }

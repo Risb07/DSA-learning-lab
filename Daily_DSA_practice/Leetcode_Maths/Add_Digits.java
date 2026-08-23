@@ -1,3 +1,5 @@
+package Daily_DSA_practice.Leetcode_Maths;
+
 public class Add_Digits {
       public int addDigits(int num) {
             int x = num;
@@ -15,7 +17,7 @@ public class Add_Digits {
       }
 
       public static void main(String[] args) {
-            
+
             Add_Digits add = new Add_Digits();
             System.out.println(add.addDigits(100));
       }

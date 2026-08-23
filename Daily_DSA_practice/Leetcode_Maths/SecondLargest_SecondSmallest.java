@@ -1,3 +1,5 @@
+package Daily_DSA_practice.Leetcode_Maths;
+
 public class SecondLargest_SecondSmallest {
 
     public static void secondlargestSmallest(int[] arr) {

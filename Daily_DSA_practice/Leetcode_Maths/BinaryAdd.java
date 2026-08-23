@@ -1,11 +1,33 @@
-class BinaryAdd{
-          public static void addBinary(String a, String b) {
-         
-         char[] a1 = a.toCharArray();
-         char[] a2 = b.toCharArray();
-    }
+package Daily_DSA_practice.Leetcode_Maths;
 
-    public static void main(String[] args) {
-            addBinary("11", "1010");
-    }
+class BinaryAdd {
+        public static String addBinary(String a, String b) {
+
+                int i = a.length() - 1;
+                int j = b.length() - 1;
+                int carry = 0;
+                StringBuilder result = new StringBuilder();
+                while (i >= 0 || j >= 0 || carry > 0) {
+                        int sum = carry;
+                        if (i >= 0) {
+                                sum += a.charAt(i) - '0';
+                                i--;
+                        }
+
+                        if (j >= 0) {
+                                sum += b.charAt(j) - '0';
+                                j--;
+                        }
+                        result.append(sum % 2);
+                        carry = sum / 2;
+                }
+
+                return result.reverse().toString();
+                
+
+        }
+
+        public static void main(String[] args) {
+                System.out.println(addBinary("11", "1"));
+        }
 }
