@@ -1,5 +1,4 @@
 package Daily_DSA_practice.Leetcode_Arrays;
-
 import java.util.Arrays;
 
 public class Anagram {
