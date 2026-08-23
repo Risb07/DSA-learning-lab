@@ -15,6 +15,8 @@
      
 */
 
+package Daily_DSA_practice.Patterns;
+
 public class Pattern5 {
       public static void PrintPattern(int n) {
             for (int i = 3; i >= 1; i--) {
@@ -27,11 +29,11 @@ public class Pattern5 {
                   }
                   System.err.println();
 
-                  //reverse pattern 
-                  
+                  // reverse pattern
+
                   // for(int li = n-1 ; li <= 1 ; li--){}
-                  
-                  for(int lj = n -1 ; lj <= n; lj++){
+
+                  for (int lj = n - 1; lj <= n; lj++) {
                         System.out.print(lj);
                   }
             }

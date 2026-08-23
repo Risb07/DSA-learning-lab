@@ -1,3 +1,5 @@
+package Daily_DSA_practice.Patterns;
+
 public class SingleLoopPattern1 {
       public static void print(int n) {
 
@@ -43,7 +45,7 @@ public class SingleLoopPattern1 {
 
             for (r = 1; r <= n;) {
                   if (c < r) {
-                        System.out.print(c+1);
+                        System.out.print(c + 1);
                         c++;
                   }
                   if (c == r) {
@@ -56,7 +58,7 @@ public class SingleLoopPattern1 {
             r = 0;
             c = 0;
 
-            int k=1;
+            int k = 1;
 
             for (r = 1; r <= n;) {
                   if (c < r) {
@@ -69,9 +71,6 @@ public class SingleLoopPattern1 {
                         c = 0;
                   }
             }
-
-      
-            
 
       }
 

@@ -1,6 +1,8 @@
 /**
  * Pattern3
  */
+package Daily_DSA_practice.Patterns;
+
 public class Pattern3 {
 
       public void printPattern(int n) {
@@ -13,6 +15,7 @@ public class Pattern3 {
                   System.out.println();
             }
       }
+
       public static void main(String[] args) {
             Pattern3 p = new Pattern3();
             p.printPattern(3);
