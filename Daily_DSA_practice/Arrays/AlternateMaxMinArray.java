@@ -1,3 +1,5 @@
+package Daily_DSA_practice.Arrays;
+
 import java.util.Arrays;
 
 public class AlternateMaxMinArray {
