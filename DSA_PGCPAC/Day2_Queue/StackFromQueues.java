@@ -1,4 +1,4 @@
-package Queue_Examples;
+package DSA_PGCPAC.Day2_Queue;
 
 import java.util.Scanner;
 
@@ -10,8 +10,10 @@ public class StackFromQueues {
         maxSize = size;
         queue1 = new int[maxSize];
         queue2 = new int[maxSize];
-        front1 = 0; rear1 = -1;
-        front2 = 0; rear2 = -1;
+        front1 = 0;
+        rear1 = -1;
+        front2 = 0;
+        rear2 = -1;
     }
 
     void push(int e) {
@@ -34,14 +36,15 @@ public class StackFromQueues {
 
         int last = queue1[rear1--];
 
-  
-        front1 = 0; rear1 = -1;
+        front1 = 0;
+        rear1 = -1;
 
         while (!isEmpty2()) {
             queue1[++rear1] = queue2[front2++];
         }
 
-        front2 = 0; rear2 = -1;
+        front2 = 0;
+        rear2 = -1;
 
         return last;
     }
@@ -56,15 +59,17 @@ public class StackFromQueues {
             queue2[++rear2] = queue1[front1++];
         }
 
-        int top = queue1[rear1]; 
+        int top = queue1[rear1];
 
-        queue2[++rear2] = queue1[rear1--]; 
+        queue2[++rear2] = queue1[rear1--];
 
-        front1 = 0; rear1 = -1;
+        front1 = 0;
+        rear1 = -1;
         while (!isEmpty2()) {
             queue1[++rear1] = queue2[front2++];
         }
-        front2 = 0; rear2 = -1;
+        front2 = 0;
+        rear2 = -1;
 
         return top;
     }
@@ -114,11 +119,13 @@ public class StackFromQueues {
                     break;
                 case 2:
                     int popped = stack.pop();
-                    if (popped != -1) System.out.println("Element popped: " + popped);
+                    if (popped != -1)
+                        System.out.println("Element popped: " + popped);
                     break;
                 case 3:
                     int top = stack.peek();
-                    if (top != -1) System.out.println("Element @ Peek: " + top);
+                    if (top != -1)
+                        System.out.println("Element @ Peek: " + top);
                     break;
                 case 4:
                     stack.printStack();
