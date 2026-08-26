@@ -1,3 +1,4 @@
+package DSA_PGCPAC.Day1_Stack.Stack_Example;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -14,7 +15,7 @@ class CharacterStack{
             stack.push(c); // and every character in c is pushed 
          }
          //3 till stack is not empty pop and copy it rword 
-         while (!stack.isEmpty){
+         while (!stack.isEmpty()){
             rword = rword+stack.pop(); //popping everything goes into rword 
          }
          System.out.print("\n ");
