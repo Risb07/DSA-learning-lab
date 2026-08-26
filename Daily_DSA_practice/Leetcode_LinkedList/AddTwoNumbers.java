@@ -66,7 +66,7 @@ public class AddTwoNumbers {
                   ListNode node = new ListNode(i);
                   if (head == null) {
                         head = node;
-                  } else {+
+                  } else {
                         ListNode t = head;
                         while (t.next != null) {
                               t = t.next;
